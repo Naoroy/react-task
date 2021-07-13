@@ -1,0 +1,16 @@
+.task {
+  border: solid 2px black;
+  background: #DDD;
+  padding: 2em;
+  width: 80%;
+  margin: auto;
+}
+
+.row-title {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.row-description {
+  font-size: 1.2em;
+}
