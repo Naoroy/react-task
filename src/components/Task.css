@@ -5,6 +5,9 @@
   width: 80%;
   margin: auto;
 }
+.hidden {
+  visibility: hidden
+}
 
 .row-title {
   font-weight: bold;
