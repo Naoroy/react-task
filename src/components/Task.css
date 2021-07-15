@@ -1,19 +1,42 @@
+#task-container {
+  /*border: solid #555 2px;*/
+  margin: 2em auto 5em;
+  width: 70%;
+
+}
 .task {
-  border: solid 2px black;
+  /*border: solid 2px #555;*/
   background: #DDD;
-  padding: 2em;
-  width: 80%;
-  margin: auto;
+  padding: 1.5em 1em;
+  margin-top: 1em
+}
+.task-status {
+  background: #F32;
+  font-weight: bold;
+}
+.task-status.done{
+  background: lightgreen;
 }
 .hidden {
   visibility: hidden
 }
 
-.row-title {
+.task-title {
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.2em;
+  text-align: center;
 }
 
-.row-description {
-  font-size: 1.2em;
+.task-description {
+  font-size: 1.1em;
+}
+#task-form {
+  background: lightblue;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 2em;
+
+}
+#task-form input, #task-form label {
+  margin: .5em;
 }
